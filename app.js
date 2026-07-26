@@ -21,7 +21,7 @@ const SUPERSET_COLORS = { A:'#F0A8BF', B:'#B79CE0', C:'#F0B87A', D:'#8FCBA0', E:
 const MEASUREMENT_FIELDS = { arm:'Braço', chest:'Peito', waist:'Cintura', hip:'Quadril', thigh:'Coxa', calf:'Panturrilha' };
 
 // ---------- SPOTIFY ----------
-const SPOTIFY_REDIRECT_URI = 'https://feefesn.github.io/Clarinha./';
+const SPOTIFY_REDIRECT_URI = 'https://feefesn.github.io/Clarinhaa/';
 const SPOTIFY_SCOPES = 'user-read-playback-state user-modify-playback-state user-read-currently-playing';
 let spotifyAccessToken = null;
 let spotifyTokenExpiry = 0;
