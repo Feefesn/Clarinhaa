@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#E893AC">
+<meta name="color-scheme" content="dark light">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Clarinha's Personal: treinos, evolução e motivação com a Marie e o Modo Coco da Malásia.">
+<meta name="application-name" content="Clarinha's Personal">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Clarinha">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Clarinha's Personal">
+<meta property="og:description" content="Treinos, evolução e motivação com a Marie e o Modo Coco da Malásia.">
+<meta property="og:url" content="https://feefesn.github.io/Clarinhaa/">
+<meta property="og:image" content="https://feefesn.github.io/Clarinhaa/assets/icons/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://feefesn.github.io/Clarinhaa/">
+<title>Clarinha's Personal</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="./assets/icons/icon-192.png">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="skip-link" href="#screen">Pular para o conteúdo principal</a>
+<div id="app"><div class="loading-wrap">carregando... 🌸</div></div>
+<div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+<div id="restTimerBar" class="rest-bar" role="timer" aria-live="polite"></div>
+<input type="file" id="photoUploadInput" class="visually-hidden" accept="image/png,image/jpeg,image/webp" onchange="handlePhotoFileSelected(this)">
+<div id="spotifyMiniPlayer" class="spotify-bar" aria-label="Controles do Spotify"></div>
+<noscript>Ative o JavaScript para usar a Clarinha's Personal.</noscript>
+<script src="./clarinha-local-storage.js"></script>
+<script src="./app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js', { scope: './' }).catch(console.error);
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "id": "/Clarinhaa/",
+  "name": "Clarinha's Personal",
+  "short_name": "Clarinha",
+  "description": "Treinos, evolução e motivação com a Marie e o Modo Coco da Malásia.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/Clarinhaa/",
+  "scope": "/Clarinhaa/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#16131A",
+  "theme_color": "#E893AC",
+  "categories": ["fitness", "health", "lifestyle"],
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
